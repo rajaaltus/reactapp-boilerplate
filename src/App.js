@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className="grid place-items-center h-screen w-full">
+      <div className="text-center">
+        <h1 className="text-4xl font-bold pb-2">Welcome</h1>
+        <p className="font-medium text-md">
+          Cra · Tailwindcss · Redux thunk · Neccessary packages
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      </div>
     </div>
   );
 }
